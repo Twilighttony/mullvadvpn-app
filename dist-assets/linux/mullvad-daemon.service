@@ -2,7 +2,7 @@
 
 [Unit]
 Description=Mullvad VPN daemon
-Wants=network.target
+Wants=network-online.target
 After=network-online.target
 After=NetworkManager.service
 After=systemd-resolved.service
